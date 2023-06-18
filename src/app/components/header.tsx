@@ -28,25 +28,25 @@ export default function Header() {
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             onClick={() => setMobileMenuOpen(true)}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Abrir menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a href="#" className="text-xl font-semibold leading-6 text-gray-900">
-            Cadastrar-se
+            Vagas
           </a>
           <a
             href="/pessoas"
             className="text-xl font-semibold leading-6 text-gray-900"
           >
-            Pessoas
+            Devs
           </a>
           <a
             href="/about"
             className="text-xl font-semibold leading-6 text-gray-900"
           >
-            Sobre nós
+            Dev Point
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -88,19 +88,19 @@ export default function Header() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Cadastrar-se
+                  Vagas
                 </a>
                 <a
                   href="/pessoas"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Pessoas
+                  Devs
                 </a>
                 <a
                   href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Sobre nós
+                  Dev Point
                 </a>
               </div>
               <div className="py-6">
