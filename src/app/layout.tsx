@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dev Point",
-  description: "Lista de profissionais de tecnologia",
+  description:
+    "O point para quem está começando na TI e para quem está procurando pessoas para capacitar.",
 };
 
 export default function RootLayout({
