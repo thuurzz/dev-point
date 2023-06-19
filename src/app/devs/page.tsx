@@ -99,43 +99,43 @@ export default function People() {
                   </div>
                 </div>
                 <div className="mt-8 flex justify-between">
-                  <div className="flex justify-between gap-4">
-                    <div className="mt-4">
+                  <div className="flex h-16 items-center justify-start gap-4 overflow-auto">
+                    <div>
                       <a
                         href={person.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-md rounded-md bg-neutral-100 p-2 font-semibold leading-5 text-neutral-500 sm:items-start sm:text-sm"
+                        className="text-md whitespace-nowrap rounded-md bg-neutral-100 p-2 font-semibold leading-5 text-neutral-500 sm:items-start sm:text-sm"
                       >
                         🐙 Github
                       </a>
                     </div>
-                    <div className="mt-4">
+                    <div>
                       <a
                         href={person.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-md rounded-md bg-blue-100 p-2 font-semibold leading-5 text-blue-500 sm:items-start sm:text-sm"
+                        className="text-md whitespace-nowrap rounded-md bg-blue-100 p-2 font-semibold leading-5 text-blue-500 sm:items-start sm:text-sm"
                       >
                         👔 LinkedIn
                       </a>
                     </div>
-                    <div className="mt-4">
+                    <div>
                       <a
                         href={`https://wa.me/55${person.whatsapp}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-md rounded-md bg-green-100 p-2 font-semibold leading-5 text-green-500 sm:items-start sm:text-sm"
+                        className="text-md whitespace-nowrap rounded-md bg-green-100 p-2 font-semibold leading-5 text-green-500 sm:items-start sm:text-sm"
                       >
                         💬 WhatsApp
                       </a>
                     </div>
-                    <div className="mt-4">
+                    <div>
                       <a
                         href={`mailto:${person.email}?subject=Contato pela Dev Point&body=Olá, ${person.name}! Encontrei seu contato pela Dev Point e gostaria de conversar com você.`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-md rounded-md bg-red-100 p-2 font-semibold leading-5 text-red-500 sm:items-start sm:text-sm"
+                        className="text-md whitespace-nowrap rounded-md bg-red-100 p-2 font-semibold leading-5 text-red-500 sm:items-start sm:text-sm"
                       >
                         ✉️ E-mail
                       </a>
